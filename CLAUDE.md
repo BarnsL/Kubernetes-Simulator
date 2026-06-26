@@ -18,7 +18,7 @@ Build a Certified Kubernetes Administrator practice simulator that uses the Kube
 
 ## Memory rule
 
-- Use the Obsidian vault at `C:\Users\barns\Desktop\Projects\OBSIDIAN CODEX MEMORY` as the long-term memory layer for this project.
+- Use the Obsidian vault at `C:\Users\<your-username>\Desktop\Projects\OBSIDIAN CODEX MEMORY` as the long-term memory layer for this project.
 - Add or update notes using prose-as-title naming rather than category labels.
 - Keep repository-local memory concise and route to deeper notes when needed.
 
