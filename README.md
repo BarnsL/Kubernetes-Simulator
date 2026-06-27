@@ -2,16 +2,44 @@
 
 A Go CLI and web GUI for practicing Certified Kubernetes Administrator (CKA) exam scenarios against a real or simulated cluster.
 
-> Inject faults, repair workloads, get graded — no cloud account required.
+> Inject faults, repair workloads, get graded. No cloud account required.
+
+---
+
+## ðŸ“Š Presentation
+
+A short deck on Kubernetes fundamentals and how this simulator teaches them through the **inject â†’ inspect â†’ repair â†’ grade** loop.
+
+[**Full deck (PDF)**](presentation/Kubernetes-CKA-Simulator.pdf) Â· [**Editable slides (PPTX)**](presentation/Kubernetes-CKA-Simulator.pptx)
+
+![Kubernetes CKA Practice Simulator â€” title slide](presentation/slides/slide-01.png)
+
+<details>
+<summary><b>View all 13 slides</b></summary>
+
+![What is Kubernetes](presentation/slides/slide-02.png)
+![The core building blocks](presentation/slides/slide-03.png)
+![Meet the CKA Practice Simulator](presentation/slides/slide-04.png)
+![How every mission works: inject, inspect, repair, grade](presentation/slides/slide-05.png)
+![Architecture](presentation/slides/slide-06.png)
+![Practice offline, or grade a real cluster](presentation/slides/slide-07.png)
+![32 mission labs across the CKA curriculum](presentation/slides/slide-08.png)
+![Anatomy of a mission: pod image repair](presentation/slides/slide-09.png)
+![The web learning console](presentation/slides/slide-10.png)
+![A sandbox with real cluster state](presentation/slides/slide-11.png)
+![Get started in minutes](presentation/slides/slide-12.png)
+![Break it. Fix it. Pass.](presentation/slides/slide-13.png)
+
+</details>
 
 ---
 
 ## Features
 
 - **32 mission labs** covering pods, deployments, RBAC, networking, storage, scheduling, and more
-- **Inject ? Repair ? Grade loop** that mirrors real CKA exam tasks
-- **Fake-client mode** — runs entirely offline using `client-go/fake` (no cluster needed)
-- **Live mode** — grades against a real kubeconfig-connected cluster
+- **Inject â†’ Repair â†’ Grade loop** that mirrors real CKA exam tasks
+- **Fake-client mode:** runs entirely offline using `client-go/fake` (no cluster needed)
+- **Live mode:** grades against a real kubeconfig-connected cluster
 - **Web GUI** with simulated kubectl terminal, step-by-step tutorials, visual dashboard, and free-play sandbox
 - **Self-test command** for quick validation without any external dependencies
 
@@ -58,7 +86,7 @@ web/                 React + TypeScript learning GUI (Vite)
 
 ## Mission Labs (32)
 
-Pod image repair · Node scheduling clinic · PV binding workshop · RBAC access mission · Deployment rollout recovery · Readiness probe repair · ConfigMap key correction · Secret environment repair · Service selector mismatch · Ingress backend correction · CrashLoopBackOff arguments · Taint and toleration match · Namespace context cleanup · Job completion repair · CronJob schedule correction · NetworkPolicy access restore · Resource request tuning · ServiceAccount binding repair · DaemonSet image repair · StatefulSet service wiring · Label selector repair · Cross-namespace service lookup · Finalizer troubleshooting · EndpointSlice readiness review · Pod DNS policy fix · Pod Security Baseline review · ServiceAccount token mount control · kubectl client verification · kind cluster bootstrap · minikube startup verification · Hello Minikube deployment · kubeadm learning path choice
+Pod image repair Â· Node scheduling clinic Â· PV binding workshop Â· RBAC access mission Â· Deployment rollout recovery Â· Readiness probe repair Â· ConfigMap key correction Â· Secret environment repair Â· Service selector mismatch Â· Ingress backend correction Â· CrashLoopBackOff arguments Â· Taint and toleration match Â· Namespace context cleanup Â· Job completion repair Â· CronJob schedule correction Â· NetworkPolicy access restore Â· Resource request tuning Â· ServiceAccount binding repair Â· DaemonSet image repair Â· StatefulSet service wiring Â· Label selector repair Â· Cross-namespace service lookup Â· Finalizer troubleshooting Â· EndpointSlice readiness review Â· Pod DNS policy fix Â· Pod Security Baseline review Â· ServiceAccount token mount control Â· kubectl client verification Â· kind cluster bootstrap Â· minikube startup verification Â· Hello Minikube deployment Â· kubeadm learning path choice
 
 ---
 
